@@ -1,0 +1,37 @@
+VISION-SECURE PII REDACTION TEST DOCUMENT
+=========================================
+Please open this document and keep it visible on your screen while Vision-Secure is running. 
+You can scroll up and down or resize the window to test the tracking speed and redaction consistency.
+
+---
+
+1. Email Addresses
+   Primary Contact: jondoe7@gmail.com
+   Support Email: helpdesk@vision-secure-test.com
+
+2. Phone Numbers
+   US Format: (555) 123-4567
+   International: +1-800-555-0199
+
+3. Credit Card Numbers (Passes Luhn Algorithm Check)
+   Visa Card: 4532 0151 1283 0366
+   MasterCard: 5123-4567-8901-2345
+
+4. Financial & Identification Metrics
+   CVV: 123
+   Social Security Number (SSN): 123-45-6789
+   Date of Birth (DOB): 15/08/1995
+
+5. Indian Identity Documents
+   PAN Number: ABCPD1234E
+   Aadhaar Tracking: 2334 5234 5664 (Mock standard format)
+
+6. Developer Credentials
+   Server IPv4: 192.168.1.100
+
+---
+
+Testing Checklist:
+[ ] Does the email blur tightly?
+[ ] If you press the 'M' key, does it swap the text to fake text instead of a blur?
+[ ] If you scroll the text up and down, does the blur box instantly follow or disappear?
